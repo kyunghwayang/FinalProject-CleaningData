@@ -138,3 +138,7 @@ melt <- melt(as.data.table(mean_sd_data),
 melt <-arrange(melt, subid, activity)
 meltMean <-dcast(melt, subid+activity~variable, mean)
 meltMean 
+
+# write the table
+write.table(meltMean, file = "mean_sd_summary.txt", sep = "\t",
+            row.names = FALSE)
