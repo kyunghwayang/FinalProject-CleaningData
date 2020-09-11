@@ -28,7 +28,7 @@ The dataset includes the following files:
 
 - Codebook.md
 
-- a tidy data set
+- a tidy data set ("mean_sd_summary.txt"
 
 
 Notes: 
